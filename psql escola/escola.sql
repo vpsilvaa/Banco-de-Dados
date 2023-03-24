@@ -34,7 +34,7 @@ CREATE TABLE tab_cursos (
 
 --DROP TABLE tab_alunos CASCADE;
 CREATE TABLE tab_alunos (
-      id_aluno                  serial	 	NOT NULL, -- identificador gerado pelo SGBD para o aluno já que ele não tem atributo obrigatório identificador natural
+      id_aluno                  serial	 	NOT NULL, -- identificador gerado pelo SGBD para o aluno jï¿½ que ele nï¿½o tem atributo obrigatï¿½rio identificador natural
       nome_aluno                VARCHAR(40)  	NOT NULL,
       cart_identidade_aluno     VARCHAR(12) 	NULL,
       cpf_aluno                 VARCHAR(14) 	NULL,
